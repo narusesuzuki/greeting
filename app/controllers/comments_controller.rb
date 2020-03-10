@@ -1,18 +1,14 @@
 class CommentsController < ApplicationController
   def morning
-
   end
 
   def afternoon
-
   end
 
   def evening
-
   end
 
   def night
-
   end
 
   def freeword
@@ -24,6 +20,4 @@ class CommentsController < ApplicationController
     random = rand(array.count)
     @word = array[random]
   end
-
-
 end
